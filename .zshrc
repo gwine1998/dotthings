@@ -63,8 +63,8 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
-	zsh-autosuggestions)
-
+	zsh-autosuggestions
+	)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -94,6 +94,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
+alias chrome= "google-chrome"
 alias szshrc="source ~/.zshrc"
 #
 #
@@ -110,6 +111,13 @@ POWERLEVEL9K_CONTEXT_TEMPLATE="%n"
 POWERLEVEL9K_CONTEXT_DEFAULT_BACKGROUND='12'
 POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND='0'
 #context setting end
+#battery setting begin
+POWERLEVEL9K_BATTERY_CHARGING_BACKGROUND='70'
+POWERLEVLE9K_BATTERY_LOW_BACKGROUND='214'
+POWERLEVEL9K_BATTERY_CHARGED_BACKGROUND='70'
+POWERLVEL9K_BATTERY_LOW_THRESHOLD=30
+POWERLEVEL9K_BATTERY_CHARGING_FOREGROUND='0'
 
+#battery setting end
 #Powerlevel9K customization end
 source /home/gwine/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
