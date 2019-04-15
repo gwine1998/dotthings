@@ -105,6 +105,8 @@ POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 #prompt setting end
 #context setting begin
 POWERLEVEL9K_CONTEXT_TEMPLATE="%n"
+POWERLEVEL9K_CONTEXT_DEFAULT_BACKGROUND='12'
+POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND='0'
 #context setting end
 
 #Powerlevel9K customization end
